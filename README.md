@@ -35,7 +35,7 @@ cd gitbook-scraper
 - Replace the gitbook_url variable in the script with the GitBook URL you want to scrape.
 
 ```python
-gitbook_url = 'https://docs-one.zerolend.xyz/'  # Example GitBook URL
+gitbook_url = 'docs-one.example.xyz'  # Example GitBook URL
 ```
 - You can also change the output file name by modifying the output_file variable.
 
@@ -63,7 +63,7 @@ The script will:
 
 ## Example
 
-For example, to scrape the documentation from a GitBook page like https://docs-one.protocol.xyz/, you would:
+For example, to scrape the documentation from a GitBook page like https://docs-one.example.xyz/, you would:
 
 - Update the gitbook_url in the script to this URL.
 - Run the script, and it will generate a file named documentation.md with the full scraped content.
