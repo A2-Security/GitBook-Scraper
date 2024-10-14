@@ -28,7 +28,7 @@ To use the script, follow these steps:
 
 ```bash
 git clone https://github.com/A2-Security/GitBook-Scraper
-cd gitbook-scraper
+cd GitBook-Scraper
 ```
 ### Update the script:
 
