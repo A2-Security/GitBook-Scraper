@@ -33,8 +33,8 @@ def extract_page_links(soup, base_url):
         href = a_tag['href']
         full_url = urllib.parse.urljoin(base_url, href)
         
-        # Check if the URL belongs to the same domain
-        if urllib.parse.urlparse(full_url).netloc == urllib.parse.urlparse(base_url).netloc:
+        # Check if the URL is under the specified root page
+        if full_url.startswith(base_url):
             links.add(full_url)
     return list(links)
 
